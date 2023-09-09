@@ -1,9 +1,9 @@
-const { zokou } = require('../framework/zokou');
+const { kerm } = require('../framework/kerm');
 const axios = require("axios")
 let { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
 const conf = require("../set");
 
-zokou({ nomCom: "tgs", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+kerm({ nomCom: "tgs", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
 
   if (!superUser) {
@@ -29,7 +29,7 @@ zokou({ nomCom: "tgs", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
     for (let i = 0; i < img.length; i++) {
       const sticker = new Sticker(img[i], {
         pack: nomAuteurMessage,
-        author: "Zokou-md",
+        author: "Kerm-MD",
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
         id: '12345',
@@ -52,7 +52,7 @@ zokou({ nomCom: "tgs", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
   }
 });
 
-zokou({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+kerm({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, auteurMessage, superUser, auteurMsgRepondu, msgRepondu } = commandeOptions;
 
   if (!superUser) { repondre("Reserver au modérateur "); return };
@@ -68,7 +68,7 @@ zokou({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) =
 
 });
 
-zokou({ nomCom: "bye", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+kerm({ nomCom: "bye", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
   if (!verifGroupe) { repondre("commande reserver au groupe uniquement"); return };
@@ -80,7 +80,7 @@ zokou({ nomCom: "bye", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
   await zk.groupLeave(dest)
 });
 
-zokou({ nomCom: "rejoindre", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+kerm({ nomCom: "rejoindre", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
 
@@ -98,7 +98,7 @@ zokou({ nomCom: "rejoindre", categorie: "Mods" }, async (dest, zk, commandeOptio
 })
 
 
-zokou({ nomCom: "jid", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+kerm({ nomCom: "jid", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -115,7 +115,7 @@ zokou({ nomCom: "jid", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
 
         }) ;
 
-  zokou({ nomCom: "envoi", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+  kerm({ nomCom: "envoi", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -140,7 +140,7 @@ await zk.sendMessage( jid, { forward: msgRepondu }) // WA forward the message!
   })
 ;
 
-zokou({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+kerm({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
@@ -164,7 +164,7 @@ zokou({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) 
 
   });
 
-zokou({ nomCom: "deblock", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+kerm({ nomCom: "deblock", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
