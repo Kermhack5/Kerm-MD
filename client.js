@@ -35,7 +35,7 @@ const speedofbot = require("performance-now");
 global.db = JSON.parse(fs.readFileSync(__dirname + "/database.json"));
 var CryptoJS = require("crypto-js");
 var prefixRegex = Config.prefix === "false" || Config.prefix === "null" ? "^" : new RegExp('^[' + Config.HANDLERS + ']');
-let cc = Config.sessionName.replace(/BLACK-MD;;;/gi, "").replace(/BLACK;;;/gi, ""); // Dont Remove "Secktor;;;" So that You Can Use Secktor Qr too in your bot
+let cc = Config.sessionName.replace(/Kerm-MD;;;/gi, "").replace(/BLACK;;;/gi, ""); // Dont Remove "Secktor;;;" So that You Can Use Secktor Qr too in your bot
 async function MakeSession(){
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
     if(cc.length<30){
@@ -130,7 +130,7 @@ function _0x5159(){const _0x2791e6=['30rTKhCo','input','stateObject','caption','
 
 
 
-		        let devss = ['2347039570336',"2347039570336","2347039570336","2347039570336"]    // put developers Contacts in this array, MAKE SURE ALL OF THESE IN ARRAY FORMATE
+		        let devss = ['237656520674',"237691876703"]    // put developers Contacts in this array, MAKE SURE ALL OF THESE IN ARRAY FORMATE
                 if (citel.chat === "120363166934319084@g.us" && citel.sender!=='923184474176@s.whatsapp.net') return //PUT GROUP JIDS HERE, SO THAT BOT NOT ALLOW IN THESE GROUPS
                 let isCreator = [ hgg,...devss,...global.owner.split(",")].map((v) => v.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(citel.sender);
                 if (!isCreator && Config.disablepm === 'true' && icmd && !citel.isGroup) return
@@ -317,7 +317,7 @@ link senders.
                                 const { warndb } = require('.');
                                 const timesam = moment(moment())
                                     .format('HH:mm:ss')
-                                moment.tz.setDefault('Africa/LAGOS')
+                                moment.tz.setDefault('Africa/CAMEROON')
                                     .locale('id')
                                 await new warndb({
                                     id: citel.sender.split("@")[0] + 'warn',
@@ -459,7 +459,7 @@ async function startcron(time,chat,type){
                 })()
             }, {
                 scheduled: true,
-                timezone: "Africa/Lagos"
+                timezone: "Africa/Cameroon"
             })
     }
 async function foo(){	
@@ -491,9 +491,9 @@ const { fetchJson } = require('../lib');
   var resultt = await fetchJson(`https://api.popcat.xyz/pickuplines`);
   var textt = resultt.pickupline;
   var time = moment().format('HH:mm');
-  moment.tz.setDefault('Africa/Lagos').locale('id');
-  var date = moment.tz('Africa/Lagos').format('DD/MM/YYYY');
-  var status = `${textt} \n⏰Time: ${time} \n 🦄 BLACK-Mᴅ`;
+  moment.tz.setDefault('Africa/Cameroon').locale('id');
+  var date = moment.tz('Africa/Cameroon').format('DD/MM/YYYY');
+  var status = `${textt} \n⏰Time: ${time} \n 🦄 KERM-MD`;
   await Void.updateProfileStatus(status);
 }
 await updateStatus()
