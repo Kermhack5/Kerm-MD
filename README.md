@@ -12,7 +12,7 @@
  
  **## [`SUPPORT WHATSAPP KERM-MD`](https://chat.whatsapp.com/Lhe8NfoMccQFNqRyamiUut)***
  
-## Fonctionnalités Principales
+## Fonctionnalités Principales‼️
 
 - **Téléchargement de Fichiers :** Kerm-MD peut télécharger des fichiers audio et vidéo à partir de liens que vous lui envoyez, pour que vous puissiez les partager facilement avec vos contacts.
 
