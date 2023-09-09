@@ -1,0 +1,82 @@
+{
+  "name":"Zokou-2.0",
+  "description":"bot whatsapp développé par djalega++",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
+  "repository":"https://github.com/djalega8000/Zokou-2.0",
+  "succes_url":"/",
+  "stack":"container",
+  "env":{
+    "PREFIXE":
+    {
+      "description":"choisissez votre préfixe",
+      "value":"#",
+      "required":true
+    },
+    "LECTURE_AUTO_STATUS":
+    {
+      "description":"le bot lira tous les status automatiquement (oui pour activer et non pour désactiver)",
+      "value":"oui",
+      "required":false
+    }, "TELECHARGER_AUTO_STATUS":
+    {
+      "description":"le bot téléchargera tous les status automatiquement (oui pour activer et non pour désactiver)",
+      "value":"oui",
+      "required":false
+    }
+    ,
+    "MODE_PUBLIC":
+    {
+      "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
+      "value":"oui",
+      "required":false
+    },
+    "APILOLHUMAIN":
+    {
+      "description":"placer votre  apikey de chez api.lolhuman.xyz(pas obligatoire)",
+      "value":"",
+      "required":false
+    },
+    "SESSION_ID":
+    {
+      "description":"veuillez renseigner votre id de session",   
+      "value":"",
+      "required":true
+      
+    },
+    "NOM_OWNER":
+    {
+    
+    "desc": "Le nom du propriétaire",
+    "required": false,
+    "value": "Zokou-2.0"
+  },
+    "NUMERO_OWNER":
+  {
+    
+    "desc": "Le numéro du propriétaire",
+    "required":false,
+    "value": "225XXXXXXXXX"
+  },
+    "IMAGE_MENU":
+   {
+    
+    "desc": "L'URL de l'image du menu",
+    "required":false,
+    "value": "https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg"
+  },
+    "NOM_BOT":
+{
+    
+    "desc": "Le nom du bot",
+    "required": false,
+    "value": "Ƶ𝓞ｋØ𝓊-2.0"
+  }
+  },
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
+    }
+  ]
+}
