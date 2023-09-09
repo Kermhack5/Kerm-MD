@@ -9,7 +9,7 @@ const baileys_1 = require("@whiskeysockets/baileys");
 const fs = require('fs-extra');
 const util = require('util');
 let { listall } = require('./stylish-font');
-/*_________by Djalega++
+/*_________by Rayan-E
 
 fonction zJson:
 récupère un objet json
@@ -32,7 +32,7 @@ module.exports.genererNomFichier = async (extension) => {
 /** ************ */
 module.exports.stick = async (buffer, author) => {
     var sticker = new Sticker(buffer, {
-        pack: 'Zokou-MD',
+        pack: 'Kerm-MD',
         author: author,
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
@@ -85,13 +85,13 @@ exports.getBuffer = getBuffer;
 
 fonction pour récupérer les meté-données des messages recus
 - paramètres
-:zok objet waSocket
+:ker objet waSocket
 :objet IwaMessage (message reçu )
 :store enregistrements de conversation
 - valeur de retour
 retourne un tableau contenant les meta-données du message reçu
 */
-async function recept_message(zok, mess, store) {
+async function recept_message(ker, mess, store) {
     if (!mess)
         return;
     if (mess.key) {
@@ -165,7 +165,7 @@ function styletext(teks) {
 exports.styletext = styletext;
 /*fonction pour prendre le lienle site api.waifu
 
-by @luffy
+by @rayan
 
 
 */
