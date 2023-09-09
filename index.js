@@ -41,17 +41,17 @@ const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter')
 //import chalk from 'chalk'
 const { getGroupe, getAntibot, ajouterAntibot } = require("./bdd");
 const { ajouterGroupe } = require("./bdd/groupe");
-let evt = require(__dirname + "/framework/zokou");
+let evt = require(__dirname + "/framework/kerm");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
 var session = conf.session;
 const prefixe = conf.PREFIXE;
 var lienPaste = 'https://paste.c-net.org/';
 if (session != '') {
-    var priseSession = session.replace(/Z-O-K-O-U_MD-/gi, "");
+    var priseSession = session.replace(/A-R-O-L-/gi, "");
     //console.log(priseSession)
     //console.log('https://paste.c-net.org/' + priseSession)}
-    /* console.log(chalk.green("Zokou-Md"))*/
+    /* console.log(chalk.green("Kerm-MD"))*/
 }
 async function authentification() {
     try {
@@ -82,7 +82,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Zokou-Md', "safari", "1.0.0"],
+            browser: ['Kerm-MD', "safari", "1.0.0"],
             printQRInTerminal: true,
             /* auth: state*/ auth: {
                 creds: state.creds,
@@ -127,10 +127,10 @@ setTimeout(() => {
             var origineMessage = ms.key.remoteJid;
             var idBot = decodeJid(zk.user.id);
             var servBot = idBot.split('@')[0];
-            /* const dj='22559763447';
-             const dj2='2250143343357';
-             const luffy='22891733300'*/
-            /*  var superUser=[servBot,dj,dj2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
+            /* const versace='237655238524';
+             const kerm='237691876703';
+             const rayan='237656520674'*/
+            /*  var superUser=[servBot,versace,kerm,rayan].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
               var dev =[dj,dj2,luffy].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
             var infosGroupe = verifGroupe ? await zk.groupMetadata(origineMessage) : "";
@@ -147,14 +147,14 @@ setTimeout(() => {
             }
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const nomAuteurMessage = ms.pushName;
-            const dj = '22559763447';
-            const dj2 = '22543343357';
-          const dj3="22564297888"
-            const luffy = '22891733300';
-            var superUser = [servBot, dj, dj2,dj3,luffy,conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
-            var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
+            const dj = '237655238524';
+            const dj2 = '237691876703';
+          const dj3=""
+            const rayan = '237656520674';
+            var superUser = [servBot, dj, dj2,dj3,rayan,conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
+            var dev = [dj, dj2,dj3,rayan].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{Zokou-Md}...[][]");
+            console.log("\t [][]...{Kerm-MD}...[][]");
             console.log("=========== Nouveau message ===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -247,7 +247,7 @@ setTimeout(() => {
                             if (req[a].antilien == "oui") {
                                 console.log('  lien détecté'); /*repondre("\tlien détecté");*/
                                 console.log("le dev " + dev);
-                                console.log("zok admin " + verifZokouAdmin);
+                                console.log("km admin " + verifKermAdmin);
                                 if (!dev || !superUser) {
                                     if (verifZokouAdmin) {
                                         if (!verifAdmin) {
@@ -259,9 +259,9 @@ setTimeout(() => {
                                             };
                                             var txt = "lien détecté, \n";
                                             txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
-                                            const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
+                                            const gifLink = "https://raw.githubusercontent.com/https://github.com/Kermhack5/Kerm-MD/main/media/remover.gif";
                                             var sticker = new Sticker(gifLink, {
-                                                pack: 'Zoou-Md',
+                                                pack: 'Kerm-Rayan',
                                                 author: conf.NOM_OWNER,
                                                 type: StickerTypes.FULL,
                                                 categories: ['🤩', '🎉'],
@@ -313,7 +313,7 @@ setTimeout(() => {
                         if (req[i].groupejid === origineMessage) {
                             if (req[i].etat === "oui") {
                                 if (!superUser || !dev) {
-                                    if (verifZokAdmin) {
+                                    if (verifKermAdmin) {
                                         if (!verifAdmin) {
                                             const key = {
                                                 remoteJid: origineMessage,
@@ -323,7 +323,7 @@ setTimeout(() => {
                                             };
                                             var { stick, genererNomFichier } = require('./framework');
                                             const nomFichier = await genererNomFichier('webp');
-                                            var st = await stick("./media/antibot.gif", "Zokou-MD");
+                                            var st = await stick("./media/antibot.gif", "Kerm-MD");
                                             await st.toFile(nomFichier);
                                             var txt = "*Bot détecté*, \n";
                                             txt += `message supprimé \n @${auteurMessage.split("@")[0]} 
@@ -436,14 +436,14 @@ setTimeout(() => {
                 }
                 console.log("chargement des commandes terminé ✅");
                 let cmsg = `╔════◇
-║ 『𝐙𝐨𝐤𝐨𝐮-𝐌𝐃』
+║ 『𝐊𝐞𝐫𝐦-𝐌𝐃』
 ║    Prefix : [ ${prefixe} ]
 ║    Mode :${md}
 ║    Total Commandes : ${evt.cm.length}︎
 ╚══════════════════╝
 
 ╔═════◇
-║『𝗯𝘆 Djalega++』
+║『𝗯𝘆 𝐑𝐚𝐲𝐚𝐧-𝐄』
 ║ 
 ╚══════════════════╝`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
