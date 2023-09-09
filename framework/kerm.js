@@ -1,6 +1,6 @@
 var tabCmds = [];
 let cm = [];
-function zokou(obj, fonctions) {
+function kerm(obj, fonctions) {
     let infoComs = obj;
     if (!obj.categorie) {
         infoComs.categorie = "Général";
@@ -13,4 +13,4 @@ function zokou(obj, fonctions) {
     // console.log('chargement...')
     return infoComs;
 }
-module.exports = { zokou, Module: zokou, cm };
+module.exports = { kerm, Module: kerm, cm };
