@@ -1,7 +1,7 @@
 const axios = require("axios");
-const {zokou} = require("../framework/zokou")
+const {kerm} = require("../framework/kerm")
 
-zokou({
+kerm({
   nomCom: "anime",
   categorie: "Fun",
   reaction: "📺"
