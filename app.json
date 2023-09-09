@@ -1,16 +1,16 @@
 {
-  "name":"Zokou-2.0",
-  "description":"bot whatsapp développé par djalega++",
+  "name":"Kerm-MD",
+  "description":"bot whatsapp développé par rayan-e",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository":"https://github.com/djalega8000/Zokou-2.0",
+  "logo":"https://i.imgur.com/iWNGLzw.jpg",
+  "repository":"https://github.com/Kermhack5/Kerm-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
     "PREFIXE":
     {
       "description":"choisissez votre préfixe",
-      "value":"#",
+      "value":".",
       "required":true
     },
     "LECTURE_AUTO_STATUS":
@@ -21,7 +21,7 @@
     }, "TELECHARGER_AUTO_STATUS":
     {
       "description":"le bot téléchargera tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
     ,
@@ -29,7 +29,7 @@
     {
       "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
       "value":"oui",
-      "required":false
+      "required":true
     },
     "APILOLHUMAIN":
     {
@@ -49,28 +49,28 @@
     
     "desc": "Le nom du propriétaire",
     "required": false,
-    "value": "Zokou-2.0"
+    "value": "Kerm-MD"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Le numéro du propriétaire",
     "required":false,
-    "value": "225XXXXXXXXX"
+    "value": "237XXXXXXXXX"
   },
     "IMAGE_MENU":
    {
     
     "desc": "L'URL de l'image du menu",
     "required":false,
-    "value": "https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg"
+    "value": "https://i.imgur.com/iWNGLzw.jpg"
   },
     "NOM_BOT":
 {
     
     "desc": "Le nom du bot",
     "required": false,
-    "value": "Ƶ𝓞ｋØ𝓊-2.0"
+    "value": "𝐊𝐞𝐫𝐦-𝐌𝐃"
   }
   },
 
