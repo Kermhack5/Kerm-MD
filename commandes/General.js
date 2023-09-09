@@ -1,7 +1,7 @@
-const { zokou } = require("../framework/zokou");
+const { kerm } = require("../framework/kerm");
 const conf = require("../set");
 
-zokou({ nomCom: "proprio", categorie: "Général", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+kerm({ nomCom: "proprio", categorie: "Général", reaction: "💞" }, async (dest, zk, commandeOptions) => {
     const { ms } = commandeOptions;
     const vcard =
         'BEGIN:VCARD\n' + // metadata of the contact card
@@ -22,12 +22,12 @@ zokou({ nomCom: "dev", categorie: "Général", reaction: "💞" }, async (dest, 
     const { ms } = commandeOptions;
 
     const devs = [
-      { nom: "Djalega++", numero: "22559763447" },
-      { nom: "᚛M๏𝓷keℽ D Lบffy᚜", numero: "22891733300" },
+      { nom: "Rayan", numero: "237656520674" },
+      { nom: "᚛Kerm᚜", numero: "237691876703" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 Bienvenue chez Zokou ! Voici les développeurs :\n\n";
+    let message = "👋 Bienvenue chez Kerm-MD ! Voici les développeurs :\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -36,7 +36,7 @@ zokou({ nomCom: "dev", categorie: "Général", reaction: "💞" }, async (dest, 
 
 });
 
-zokou({ nomCom: "support", categorie: "Général" }, async (dest, zk, commandeOptions) => {
+kerm({ nomCom: "support", categorie: "Général" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("Veillez voir la discussion privé pour le lien svp ")
