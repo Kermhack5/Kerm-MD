@@ -4,7 +4,7 @@
 
 <p align="center"> 
   <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bungee+Shade&size=25&pause=1000&background=FF000000&width=435&lines=Kerm+MD+;Created+By+Rayan" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bungee+Shade&size=25&pause=1000&background=FF000000&width=435&lines=Kerm+MD+;Created+By+Rayan+Emmanuel" alt="Typing SVG" /></a>
    
 ![banner](https://i.imgur.com/iWNGLzw.jpg)
 
@@ -30,7 +30,7 @@
 1. Veillez cliquer sur **## [`FORK KERM-MD`](https://github.com/Kermhack5/Kerm-MD/fork)** afin de copier le repo sur votre compte github.  veillez bien ajouter une etoile 🌟 pour encourager les développeurs 
 
 2. Obtenez une session du bot : <br>
-   ## [`SCAN QR CODE`](https://replit.com/@Kermhack5) <br>
+   ## [`SCAN QR CODE`](https://replit.com/@Kermhack5/Ker-1?v=1) <br>
   ## [`SCAN QR CODE`](https://replit.com/@Kermhack5)
 3. 
 
