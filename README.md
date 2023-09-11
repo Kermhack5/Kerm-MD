@@ -30,8 +30,8 @@
 1. Veillez cliquer sur **## [`FORK KERM-MD`](https://github.com/Kermhack5/Kerm-MD/fork)** afin de copier le repo sur votre compte github.  veillez bien ajouter une etoile 🌟 pour encourager les développeurs 
 
 2. Obtenez une session du bot : <br>
-   ## [`SCAN QR CODE`](https://replit.com/@Kermhack5/Ker-1?v=1) <br>
-  ## [`SCAN QR CODE`](https://replit.com/@Kermhack5)
+   ## [`SCAN QR CODE`](https://replit.com/@Kermhack5/Kerm-MD?v=1) <br>
+  ## [`SCAN QR CODE`](https://replit.com/@Kermhack5/Kerm-MD?v=1)
 3. 
 
 ## Déploiement🧪
