@@ -43,10 +43,11 @@
 
 Les contributions à Kerm-MD sont les bienvenues ! Si vous avez des idées pour de nouvelles fonctionnalités, des améliorations ou des corrections de bogues, n'hésitez pas à ouvrir une issue ou à soumettre une demande de pull 
                 
-## Licence📃
+**Buy Me a Coffee**: Your support will help me stay motivated and continue working on exciting projects like this one.
 
-Profitez des fonctionnalités variées du Bot WhatsApp Kerm-MD pour améliorer vos conversations et rendre votre expérience WhatsApp plus intéressante !
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/adithyanr">
+  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+</a>
 
 ## Developpeur😎 :
  
