@@ -47,10 +47,10 @@ href='https://heroku.com/deploy?template=https://github.com/Kermhack5/Kerm-MD' t
 
 Les contributions à Kerm-MD sont les bienvenues ! Si vous avez des idées pour de nouvelles fonctionnalités, des améliorations ou des corrections de bogues, n'hésitez pas à ouvrir une issue ou à soumettre une demande de pull 
                 
-**Buy Me a Coffee**: Your support will help me stay motivated and continue working on exciting projects like this one.
+**Vient me dire bonjour**: Je serais très content de vous connaître et d'échanger avec vous. Rapprochez vous et parler des améliorations que peut avoir notre bot.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/adithyanr">
-  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="wa.me/+237656520674">
+  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Vient me dire bonjour" height="40" width="150" style="margin-left: 60px;">
 </a>
 
 ## Developpeur😎 :
