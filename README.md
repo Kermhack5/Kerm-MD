@@ -36,8 +36,8 @@
 
 ## Déploiement🧪
 - **déploiement sur heroku**
-  1. si vous ne disposez pas de compte **heroku** cliquez 
-  <br>
+  1. si vous ne disposez pas de compte heroku cliquez 
+<br>
 <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Créer-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
   2.  si vous disposez d'un compte déployé directement
